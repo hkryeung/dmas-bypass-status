@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dmass-bypass-status"
+version = "0.1.0"
+description = ""
+authors = ["Hong-Kit Randy Yeung <hong-kit.r.yeung@jpl.nasa.gov>"]
+readme = "README.md"
+packages = [{include = "dmass_bypass_status"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.26.98"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
